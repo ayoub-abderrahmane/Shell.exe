@@ -1,0 +1,2 @@
+il faut entrer "nano myfirstscript.sh" dans le terminal puis dans l'éditeur de texte on note "echo "i'm a script""puis on fait control X et enfin Entrée
+De retour sur l'interface principal on rentre ./myfirstscript.sh et on exécute
