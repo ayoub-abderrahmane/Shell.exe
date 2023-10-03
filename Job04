@@ -1,0 +1,2 @@
+On va créer le script avec "nano argument.sh" puis on va noter a l'intérieur "cat "$2">>"1""
+De retour de l'éditeur de texte, on note ./argument.sh test myupdate.sh pour copier le contenu de myupdate.sh vers le fichier test
