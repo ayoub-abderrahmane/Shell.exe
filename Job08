@@ -1,0 +1,7 @@
+ echo "nombre de connection pour ayoub"
+connections=$(grep "New seat seat0" /var/log/auth.log | wc -l)
+fichier=number_connections-`date +%d-%m-%Y-%H:%M`
+  echo "$connections" > number_connections-`date +%d-%m-%Y-%H:%M`
+  echo "$connections"
+  tar -cvf  /mnt/c/Users/HP/number_connections-`date +%d-%m-%Y-%H:%M`.tar number_connections-`date +%d-%m-%Y-%H:%M`
+  mv number_connections-`date +%d-%m-%Y-%H:%M`.tar Backup
