@@ -1,0 +1,8 @@
+fichier_utilisateurs="Shell_Userlist.csv"
+while IFS=',' read -r username role; do
+if [ "$role" = "admin" ]; then
+        sudo useradd -m -G sudo "$username"
+    else
+        sudo useradd -m "$username"
+    fi
+    done <"$fichier_utilisateurs"
