@@ -1,2 +1,0 @@
-On va créer son fichier avec "nano add.sh" puis on va noter dedans echo "result : $(($1+$2))"
-Ensuite on va executer la commande "./add.sh 40 2" soit avec les deux chiffres qu'on va aditionner
