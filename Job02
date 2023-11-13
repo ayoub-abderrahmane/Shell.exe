@@ -1,2 +1,0 @@
-on rentre encore "nano myupdate.sh" pour créer le fichier puis on note dedans "sudo apt update" on retourne a la ligne puis on note "sudo apt upgrade" et on enregistre
-Ensuite on execute avec ./myupdate.sh
